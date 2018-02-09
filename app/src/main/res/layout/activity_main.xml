@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.andresjakl.smarthomeclient.MainActivity">
+
+    <EditText
+        android:id="@+id/et_query_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_command"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_top_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Top intent" />
+
+    <TextView
+        android:id="@+id/tv_top_entity_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Top entity type" />
+
+    <TextView
+        android:id="@+id/tv_top_entity_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Top entity value" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tv_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Results" />
+
+    </ScrollView>
+</LinearLayout>

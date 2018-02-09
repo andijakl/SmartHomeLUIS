@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SmartHomeClient</string>
+    <string name="send">Send</string>
+    <string name="msg_null_from_web_query">Received null as result from web query</string>
+    <string name="msg_menu_item_tapped">Menu item tapped</string>
+    <string name="enter_your_command">Enter your command</string>
+    <string name="msg_enter_query">Please enter a query</string>
+    <string name="msg_no_appkey">Please set the APPKEY and ENDPOINT URLs in MainActivity.kt</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="error_json_parsing">Error: %1$s\nReturned string: %2$s</string>
+</resources>

@@ -5,6 +5,8 @@ Demo client for a language understanding service.
 
 Enter a smart home related text in natural language (e.g., "turn lights on"). The app sends the text to the Microsoft LUIS backend using a HTTP REST request. The JSON results from the service are parsed in the app. It shows the top intent and entity on the screen, together with the full JSON response.
 
+![](https://raw.githubusercontent.com/andijakl/SmartHomeLUIS/master/screenshots/smarthomeclient-turnonstaircaselights-demo.gif)
+
 [Complete background information and instructions](https://www.slideshare.net/andreasjakl/android-development-with-kotlin-part-2-internet-services-and-json)
 
 Steps to get the app running:
